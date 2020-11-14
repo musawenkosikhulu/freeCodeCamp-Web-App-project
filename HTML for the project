@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <main>
+        <section class ="FakaUhleloOluntsha">
+            <form id="iFormLohlelo olusha">
+                <label for="FakaUhlelo">Faka uhlelo loSuku</label>
+                <input id="" type="text" size="40" autocomplete="on" placeholder="Faka Uhlelo lwakho" tabindex="0">
+                <button id="FakaUhlelo" class="button" title="Faka uhlelo lwakho" aria-label="Faka uhlelo lwakho ku-List" tabindex="0">+</button>
+
+            </form>
+
+        </section>
+        <section class="iListContainer">
+            <div class="Isihloko seList">
+                <h1>iList osazoyenza</h1>
+                <button id="SusaUhlelo" class="button" title="Susa ku-List" aria-label="Susa konke okoku-List" tabindex="0">Susa</button>
+            </div>
+            <hr />
+            <div id="iListYezinhlelo">
+                <div class="Uhlelo">
+                    <input type="checkbox" id="1" tabindex="0">
+                    <label for="1">Idla</label>
+                </div>
+                <div class="Uhlelo">
+                    <input type="checkbox" id="1" tabindex="0">
+                    <label for="1">Lala</label>
+                </div>
+            </div>
+        </section>
+    </main>
+    
+</body>
+</html>
